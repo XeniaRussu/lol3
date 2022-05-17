@@ -14,7 +14,6 @@ class Program
     public static string AreYouPlayingBanjo(string name) => name.Where(s => s.ToString("R".ToLower)) ;    
     {
         //Implement me
-        if (name)
             Console.WriteLine();        
   }
 }
