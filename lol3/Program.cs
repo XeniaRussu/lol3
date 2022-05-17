@@ -12,7 +12,7 @@ class Program
        
 }
 
-    фівфіа
+    фівфіафівфіаі
     public static string AreYouPlayingBanjo(string name) => name.Where(s => s.ToString("R".ToLower)) ;    
     {
         //Implement me
