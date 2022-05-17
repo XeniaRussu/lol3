@@ -11,6 +11,8 @@ class Program
         Console.BackgroundColor = ConsoleColor.DarkMagenta;
        
 }
+
+    фівфіа
     public static string AreYouPlayingBanjo(string name) => name.Where(s => s.ToString("R".ToLower)) ;    
     {
         //Implement me
