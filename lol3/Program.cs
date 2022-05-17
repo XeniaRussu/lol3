@@ -10,8 +10,10 @@ class Program
     {
         Console.BackgroundColor = ConsoleColor.DarkMagenta;
        
-
-    }
-
-    public static string AreYouPlayingBanjo(string name) => "X";
+}
+    public static string AreYouPlayingBanjo(string name) => name.Where(s => s.ToString("R".ToLower)) ;    
+    {
+        //Implement me
+            Console.WriteLine();        
+  }
 }
