@@ -11,9 +11,13 @@ class Program
         Console.BackgroundColor = ConsoleColor.DarkMagenta;
        
 }
-    public static string AreYouPlayingBanjo(string name) => name.Where(s => s.ToString("R".ToLower)) ;    
+    public static string AreYouPlayingBanjo(string name)     
     {
         //Implement me
-            Console.WriteLine();        
-  }
+            
+            int x = 10;
+            int y = 10;
+            var a = x + y;
+            Console.WriteLine(a);
+    }
 }
